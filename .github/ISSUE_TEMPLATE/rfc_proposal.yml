@@ -1,0 +1,32 @@
+name: RFC Proposal
+description: Propose a new RFC or a normative change to the MGP specification
+labels: [rfc]
+
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Provide a concise overview of the proposed change.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Explain why this change is needed and what problem it solves.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Normative Impact
+      description: Describe which RFCs or behaviors would be affected.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: List any alternative approaches you evaluated.

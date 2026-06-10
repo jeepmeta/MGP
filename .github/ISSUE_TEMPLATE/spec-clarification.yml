@@ -1,0 +1,18 @@
+name: Specification Clarification
+description: Request clarification for ambiguous or unclear parts of the MGP specification
+labels: [clarification]
+
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Clarification Request
+      description: Describe what is unclear or ambiguous.
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: Relevant Sections
+      description: List any RFCs or lines that relate to your question.
